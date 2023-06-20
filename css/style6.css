@@ -1,0 +1,98 @@
+body{
+    background-color: #1B1B1B;
+    height: 100% !important;
+}
+
+#logo{
+    height: 30vh;
+}
+
+img.ImagemLogo{
+    position: relative;
+    width: 230px;
+    height: 220px;
+    bottom: 14vh;
+    left: 22vw;
+}
+
+.NomeChat{
+    position: relative;
+    width: 770px;
+    height: 230px;
+    left: 34vw;
+    bottom: 86vh;
+    font-family: 'Signika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200px;
+    color: #F0E68C;
+}
+
+#NameSala{
+    position: relative;
+    position: relative;
+    Width: 1092px;
+    Height: 98px;
+    bottom: 8vh;
+    Left: 22vw;
+    border-radius:20px;
+    font-size: 4vh;
+}
+
+::placeholder{
+    position: relative;
+    font-size: 3vh;
+    left: 2vw;
+}
+
+#EscPUB{
+    position: relative;
+    height: 4vh;
+    width: 2vw;
+    top: 10vh;
+    right: 30vw;
+    background-color: #F0E68C;
+}
+
+#PUB{
+    color: #fff;
+    position: relative;
+    width: 3vw;
+    left: 32vw;
+    bottom: 2vh;
+    font-size: 5vh;
+}
+
+#EscPRI{
+    position: relative;
+    height: 4vh;
+    width: 2vw;
+    bottom: 10vh;
+    left: 59vw;
+    background-color: #ffff;
+}
+
+#PRI{
+    color: #fff;
+    position: relative;
+    width: 3vw;
+    left: 62vw;
+    bottom: 18.5vh;
+    font-size: 5vh;
+}
+
+#Criar{
+    position: relative;
+    background-color: #F0E68C;
+    height: 10vh;
+    width: 20vw;
+    border-radius: 20px;
+    font-size: 4vh;
+    bottom: 4vh;
+    left: 40vw;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}

@@ -1,0 +1,100 @@
+body{
+    background-color: #1B1B1B;
+    height: 100% !important;
+}
+
+#logo{
+    position: relative;
+    height: 30vh;
+    width: 20vw;
+    left: 40vw;
+    bottom: 60vh;
+    margin: none;
+}
+
+img.ImagemLogo{
+    position: relative;
+    width: 270px;
+    height: 270px;
+    bottom: 20vh;
+    left: 20vw;
+}
+
+.NomeChat{
+    position: relative;
+    width: 770px;
+    height: 230px;
+    left: 8vw;
+    bottom: 25vh;
+    font-family: 'Signika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200px;
+    color: #F0E68C;
+    margin: 0 !important;
+}
+
+.areaChats{
+    background-color: rgba(185, 185, 185, 0.0666667);
+    width: 611px;
+    height: 97vh;
+    margin-top: none;
+    margin-bottom: none;
+    padding-top: none;
+    border: 5px solid #000000;
+}
+
+.TituloSalas{
+ color: #ffff;
+ height: 5vh;
+ border-bottom: 5px solid #000000; 
+}
+
+#titulo{
+    position: relative;
+    left: 1vw;
+}
+
+#addSala{
+    position: relative;
+    left: 29vw;
+    bottom: 7vh;
+    height: 5.5vh;
+    width: 3vw;
+    font-size: 4vh;
+    background: rgba(185, 185, 185, 0.0667);
+    border: 5px solid #000000; 
+    color: #ffff;
+}
+
+#salastatica{
+    color: #ffff;
+    position: relative;
+    left: 1vw;
+    width: 25vw;
+}
+
+#salaPUB{
+    position: relative;
+    color: #ffff;
+    left: 1vw;
+    font-size: 3.5vh;
+    font-weight: 600;
+    bottom: 2vh;
+    width: 25vw;
+}
+
+#salaPRI{
+    color: #ffff;
+    position: relative;
+    bottom: 1vh;
+    left: 1vw;
+    font-size: 3.5vh;
+    font-weight: 600;
+    width: 25vw;
+}
+
+a{
+    text-decoration: none;
+    color: #ffff;
+}

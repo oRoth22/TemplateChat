@@ -1,0 +1,59 @@
+body{
+    background-color: #1B1B1B;
+}
+
+#logo{
+    height: 30vh;
+}
+
+img.ImagemLogo{
+    position: relative;
+    width: 230px;
+    height: 220px;
+    bottom: 1vh;
+    left: 18vw;
+}
+
+.NomeChat{
+    position: relative;
+    width: 770px;
+    height: 230px;
+    left: 30vw;
+    bottom: 74vh;
+    font-family: 'Signika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200px;
+    color: #F0E68C;
+}
+
+.op{
+    height: 10vh;
+}
+
+#criar{
+    position: relative;
+    height: 15vh;
+    width: 25vw;
+    top: 15vh;
+    left: 21vw;
+    background-color: #F0E68C;
+    border-radius: 20px;
+    font-size: 5vh;
+}
+
+#entrar{
+    position: relative;
+    height: 15vh;
+    width: 25vw;
+    top: 15vh;
+    left: 25vw;
+    background-color: #F0E68C;
+    border-radius: 20px;
+    font-size: 5vh;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}

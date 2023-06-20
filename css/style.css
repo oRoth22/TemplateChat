@@ -1,0 +1,79 @@
+body{
+    background-color: #1B1B1B;
+}
+
+#logo{
+    height: 30vh;
+}
+
+#paragrafos{
+    width: 90%;
+}
+
+img.ImagemLogo{
+    position: relative;
+    width: 230px;
+    height: 220px;
+    bottom: 1vh;
+    left: 18vw;
+}
+
+.NomeChat{
+    position: relative;
+    width: 770px;
+    height: 230px;
+    left: 30vw;
+    bottom: 74vh;
+    font-family: 'Signika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200px;
+    color: #F0E68C;
+}
+
+#p1{
+    color: #ffff;
+    position: relative;
+    width: 70vw;
+    bottom: 10vh;
+    left: 18vw;
+
+    font-family: Signika;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+#p2{
+    position: relative;
+    bottom: 10vh;
+    color: #ffff;
+    width: 70vw;
+    left: 18vw;
+
+    font-family: Signika;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.BtnComecar{
+    position: relative;
+    width: 20vw;
+    height: 10vh;
+    left: 38vw;
+    bottom: 7vh;
+    font-size: 4vh;
+    background-color: #F0E68C;
+    border-radius: 2vw;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}

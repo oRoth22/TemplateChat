@@ -1,0 +1,98 @@
+body{
+    background-color: #1B1B1B;
+}
+
+#logo{
+    position: relative;
+    height: 30vh;
+}
+
+img.ImagemLogo{
+    position: relative;
+    width: 230px;
+    height: 220px;
+    bottom: 12vh;
+    left: 20vw;
+}
+
+.NomeChat{
+    position: relative;
+    width: 770px;
+    height: 230px;
+    left: 32vw;
+    bottom: 85vh;
+    font-family: 'Signika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200px;
+    color: #F0E68C;
+}
+
+#email{
+    position: relative;
+    Width: 1092px;
+    Height: 98px;
+    bottom: 14vh;
+    Left: 20vw;
+    border-radius:20px;
+    font-size: 4vh;
+
+}
+
+#Nome{
+    position: relative;
+    Width: 1092px;
+    Height: 98px;
+    bottom: 12vh;
+    Left: 20vw;
+    border-radius:20px;
+    font-size: 4vh;
+}
+
+#Senha{
+    position: relative;
+    Width: 1092px;
+    Height: 98px;
+    bottom: 10vh;
+    Left: 20vw;
+    border-radius:20px;
+    font-size: 4vh;
+}
+
+#Confirmar{
+    position: relative;
+    Width: 1092px;
+    Height: 98px;
+    bottom: 8vh;
+    Left: 20vw;
+    border-radius:20px;
+    font-size: 4vh;
+}
+
+::placeholder{
+    position: relative;
+    font-size: 3vh;
+    left: 2vw;
+}
+
+#btncriar{
+    background-color: #F0E68C;
+    position: relative;
+    height: 10vh;
+    width: 20vw;
+    border-radius: 20px;
+    font-size: 4vh;
+    left: 38vw;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+#btnSet{
+    position: relative;
+    background-color: #1B1B1B;
+    width: 9vw;
+    border: none;
+}
