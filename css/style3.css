@@ -36,6 +36,7 @@ img.ImagemLogo{
     Left: 20vw;
     border-radius:20px;
     font-size: 4vh;
+    padding-left: 2vw;
 
 }
 
@@ -47,6 +48,7 @@ img.ImagemLogo{
     Left: 20vw;
     border-radius:20px;
     font-size: 4vh;
+    padding-left: 2vw;
 }
 
 #Senha{
@@ -57,6 +59,7 @@ img.ImagemLogo{
     Left: 20vw;
     border-radius:20px;
     font-size: 4vh;
+    padding-left: 2vw;
 }
 
 #Confirmar{
@@ -67,12 +70,12 @@ img.ImagemLogo{
     Left: 20vw;
     border-radius:20px;
     font-size: 4vh;
+    padding-left: 2vw;
 }
 
 ::placeholder{
     position: relative;
     font-size: 3vh;
-    left: 2vw;
 }
 
 #btncriar{

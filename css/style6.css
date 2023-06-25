@@ -37,12 +37,12 @@ img.ImagemLogo{
     Left: 22vw;
     border-radius:20px;
     font-size: 4vh;
+    padding-left: 2vw;
 }
 
 ::placeholder{
     position: relative;
     font-size: 3vh;
-    left: 2vw;
 }
 
 #EscPUB{
