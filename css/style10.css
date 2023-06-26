@@ -1,0 +1,107 @@
+body{
+    background-color: #1B1B1B;
+    height: 100% !important;
+    margin: none;
+}
+
+.header{
+    position: relative;
+    bottom: 2vh;
+    left: 0.5px;
+    height: 8%;
+    width: 100%;
+    background-color: rgba(185, 185, 185, 0.0666667);}
+
+.NomeSala{
+    position: relative;
+    color: #fff;
+    width: 28vw;
+    left: 8vw;
+    top: 1.5vh;
+    margin: none;
+}
+
+.pessoa{
+    margin-bottom: 1vh;
+    margin-left: 1vw;
+    color: #F0E68C;
+}
+
+.mensagem{
+    margin-left: 1vw;
+}
+
+.AreaConversas1{
+    position: relative;
+    background-color: rgba(185, 185, 185, 0.0666667);
+    color: #fff;
+    width: 21vw;
+    font-size: 2.5vh;
+    left: 2vw;
+    top: 3vh;
+}
+
+.AreaConversas2{
+    position: relative;
+    background-color: rgba(185, 185, 185, 0.0666667);
+    color: #fff;
+    width: 13vw;
+    font-size: 2.5vh;
+    left: 2vw;
+    top: 8vh;
+}
+
+.AreaConversas3{
+    position: relative;
+    background-color: rgba(185, 185, 185, 0.0666667);
+    color: #fff;
+    width: 10vw;
+    font-size: 2.5vh;
+    left: 2vw;
+    top: 13vh;
+}
+
+.AreaConversas4{
+    position: relative;
+    background-color: rgba(185, 185, 185, 0.0666667);
+    color: #fff;
+    width: 12vw;
+    font-size: 2.5vh;
+    left: 85vw;
+    top: 18vh;
+}
+
+.AreaConversas5{
+    position: relative;
+    background-color: rgba(185, 185, 185, 0.0666667);
+    color: #fff;
+    width: 11vw;
+    font-size: 2.5vh;
+    left: 85vw;
+    top: 23vh;
+}
+
+.AreaEscrever{
+    background-color:rgba(185, 185, 185, 0.0666667);
+    position: relative;
+    top: 31vh;
+    height: 25vh;
+}
+
+.Input{
+    position: relative;
+    top: 8vh;
+    left: 4vw;
+    width: 75vw;
+    height: 8vh;
+    border-radius: 2vw;
+    font-size: 4vh;
+    font-weight: 500;
+    padding-left: 2vw;
+}
+
+Input::placeholder{
+    position: relative;
+    font-size: 4vh;
+    font-weight: 500;
+}

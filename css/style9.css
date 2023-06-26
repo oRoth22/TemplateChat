@@ -1,0 +1,40 @@
+body{
+    background-color: #1B1B1B;
+    height: 100% !important;
+    margin: none;
+}
+
+.AreaSenha{
+    background-color: rgba(185, 185, 185, 0.0666667);
+    height: 95.5vh;
+    width: 35vw;
+    border: 5px solid #000000;
+}
+
+.NomeSala{
+    color: #fff;
+    position: relative;
+    height: 1vh;
+    top: 20vh;
+    left: 7vh;
+}
+
+.InputSenha{
+    position: relative;
+    width: 30vw;
+    height: 7vh;
+    border-radius: 10px;
+    top: 25vh;
+    left: 2vw;
+    padding-left: 1vw;
+}
+
+.btnEntrarPrivada{
+    position: relative;
+    top: 30vh;
+    left: 11vw;
+    width: 12vw;
+    height: 8vh;
+    border-radius:10px;
+    background-color:#F0E68C;
+}
