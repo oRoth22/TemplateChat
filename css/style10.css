@@ -1,7 +1,17 @@
+<<<<<<< HEAD
+html{
+    height: 90%;
+}
+
+body{
+    background-color: #1B1B1B;
+    height: 100% !important;
+=======
 body{
     background-color: #1B1B1B;
     height: 100% !important;
     margin: none;
+>>>>>>> df22d37ac866a63a875ec7707b2a10b6954c35c3
 }
 
 .header{
@@ -10,21 +20,49 @@ body{
     left: 0.5px;
     height: 8%;
     width: 100%;
+<<<<<<< HEAD
+    background-color: #2c2c2c;
+}
+
+#seta{
+    position: relative;
+    border: none;
+}
+
+#btnVoltar{
+    position: relative;
+    width: 8vw;
+    height: 6vh;
+    border: none;
+    top: 1vh;
+    background-color: #2c2c2c;
+}
+=======
     background-color: rgba(185, 185, 185, 0.0666667);}
+>>>>>>> df22d37ac866a63a875ec7707b2a10b6954c35c3
 
 .NomeSala{
     position: relative;
     color: #fff;
     width: 28vw;
+<<<<<<< HEAD
+    left: 9vw;
+    bottom: 10vh;
+=======
     left: 8vw;
     top: 1.5vh;
+>>>>>>> df22d37ac866a63a875ec7707b2a10b6954c35c3
     margin: none;
 }
 
 .pessoa{
     margin-bottom: 1vh;
     margin-left: 1vw;
+<<<<<<< HEAD
+    color: #7000FF;
+=======
     color: #F0E68C;
+>>>>>>> df22d37ac866a63a875ec7707b2a10b6954c35c3
 }
 
 .mensagem{
@@ -33,9 +71,15 @@ body{
 
 .AreaConversas1{
     position: relative;
+<<<<<<< HEAD
+    background-color: #2c2c2c;
+    color: #fff;
+    width: 15vw;
+=======
     background-color: rgba(185, 185, 185, 0.0666667);
     color: #fff;
     width: 21vw;
+>>>>>>> df22d37ac866a63a875ec7707b2a10b6954c35c3
     font-size: 2.5vh;
     left: 2vw;
     top: 3vh;
@@ -43,9 +87,15 @@ body{
 
 .AreaConversas2{
     position: relative;
+<<<<<<< HEAD
+    background-color: #2c2c2c;
+    color: #fff;
+    width: 10vw;
+=======
     background-color: rgba(185, 185, 185, 0.0666667);
     color: #fff;
     width: 13vw;
+>>>>>>> df22d37ac866a63a875ec7707b2a10b6954c35c3
     font-size: 2.5vh;
     left: 2vw;
     top: 8vh;
@@ -53,7 +103,11 @@ body{
 
 .AreaConversas3{
     position: relative;
+<<<<<<< HEAD
+    background-color: #2c2c2c;
+=======
     background-color: rgba(185, 185, 185, 0.0666667);
+>>>>>>> df22d37ac866a63a875ec7707b2a10b6954c35c3
     color: #fff;
     width: 10vw;
     font-size: 2.5vh;
@@ -63,9 +117,15 @@ body{
 
 .AreaConversas4{
     position: relative;
+<<<<<<< HEAD
+    background-color: #2c2c2c;
+    color: #fff;
+    width: 13vw;
+=======
     background-color: rgba(185, 185, 185, 0.0666667);
     color: #fff;
     width: 12vw;
+>>>>>>> df22d37ac866a63a875ec7707b2a10b6954c35c3
     font-size: 2.5vh;
     left: 85vw;
     top: 18vh;
@@ -73,16 +133,27 @@ body{
 
 .AreaConversas5{
     position: relative;
+<<<<<<< HEAD
+    background-color: #2c2c2c;
+    color: #fff;
+    width: 13vw;
+=======
     background-color: rgba(185, 185, 185, 0.0666667);
     color: #fff;
     width: 11vw;
+>>>>>>> df22d37ac866a63a875ec7707b2a10b6954c35c3
     font-size: 2.5vh;
     left: 85vw;
     top: 23vh;
 }
 
 .AreaEscrever{
+<<<<<<< HEAD
+    display: flex;
+    background-color:#2c2c2c;
+=======
     background-color:rgba(185, 185, 185, 0.0666667);
+>>>>>>> df22d37ac866a63a875ec7707b2a10b6954c35c3
     position: relative;
     top: 31vh;
     height: 25vh;
@@ -104,4 +175,167 @@ Input::placeholder{
     position: relative;
     font-size: 4vh;
     font-weight: 500;
+<<<<<<< HEAD
+}
+
+a#Volt{
+    font-size: 10vh;
+    position: relative;
+    bottom: 5vh;
+    color: #7000FF;
+    text-decoration: none;
+    top: -35px;
+    border: none;
+}
+
+@media only screen and (max-width: 390px){
+    #seta {
+        position: relative;
+        border: none;
+        width: 5vw;
+    }
+
+    a#Volt{
+        font-size: 8vh;
+        position: relative;
+        bottom: 5vh;
+        color: #7000FF;
+        text-decoration: none;
+        top: -22px;
+        border: none;
+    }
+    
+
+    .header {
+        position: relative;
+        bottom: 2vh;
+        left: -8.5px;
+        height: 8%;
+        width: 104%;
+        background-color: #2c2c2c;
+    }
+
+    .NomeSala {
+        position: relative;
+        color: #fff;
+        width: 73vw;
+        left: 28vw;
+        bottom: 9vh;
+        margin: none;
+    }
+
+    .AreaEscrever{
+        display: flex;
+        background-color:#2c2c2c;
+        position: relative;
+        top: 31vh;
+        height: 25vh;
+    }
+    
+    .Input{
+        position: relative;
+        top: 8vh;
+        left: 4vw;
+        width: 75vw;
+        height: 8vh;
+        border-radius: 2vw;
+        font-size: 4vh;
+        font-weight: 500;
+        padding-left: 2vw;
+    }
+    
+    Input::placeholder{
+        position: relative;
+        font-size: 4vh;
+        font-weight: 500;
+    }
+
+    .AreaConversas1 {
+        position: relative;
+        background-color: #2c2c2c;
+        color: #fff;
+        width: 51vw;
+        font-size: 2.5vh;
+        left: 2vw;
+        top: 3vh;
+    }
+
+    .AreaConversas2 {
+        position: relative;
+        background-color: #2c2c2c;
+        color: #fff;
+        width: 29vw;
+        font-size: 2.5vh;
+        left: 2vw;
+        top: 6vh;
+    }
+
+    .AreaConversas3 {
+        position: relative;
+        background-color: #2c2c2c;
+        color: #fff;
+        width: 27vw;
+        font-size: 2.5vh;
+        left: 2vw;
+        top: 9vh;
+    }
+
+    .AreaConversas4 {
+        position: relative;
+        background-color: #2c2c2c;
+        color: #fff;
+        width: 51vw;
+        font-size: 2.5vh;
+        left: 44vw;
+        top: 13vh;
+    }
+
+    .AreaConversas5 {
+        position: relative;
+        background-color: #2c2c2c;
+        color: #fff;
+        width: 51vw;
+        font-size: 2.5vh;
+        left: 44vw;
+        top: 19vh;
+    }
+
+    .AreaEscrever {
+        display: flex;
+        background-color: #2c2c2c;
+        position: relative;
+        top: 34vh;
+        height: 20vh;
+        width: 100%;
+    }
+
+    .Input {
+        position: relative;
+        top: 8vh;
+        left: 3vw;
+        width: 60vw;
+        height: 6vh;
+        border-radius: 2vw;
+        font-size: 4vh;
+        font-weight: 500;
+        padding-left: 2vw;
+    }
+
+    Input::placeholder{
+        position: relative;
+        bottom: 0.5vh;
+        font-size: 2.5vh;
+        font-weight: 500;
+    }
+
+    .bi.bi-send{
+        position: relative !important;
+        color: #fff !important;
+        font-size: 8vh !important;
+        top: 7.5vh !important;
+        left: 10vw!important;
+        height: 5vh !important;
+    }
+=======
+>>>>>>> df22d37ac866a63a875ec7707b2a10b6954c35c3
 }

@@ -1,5 +1,164 @@
 body{
     background-color: #1B1B1B;
+<<<<<<< HEAD
+}
+
+.flex{
+    display:flex;
+}
+
+#logo{
+    position: relative;
+    height: 30vh;
+}
+
+img.ImagemLogo{
+    position: relative;
+    width: 230px;
+    height: 220px;
+    top: 20vh;
+    left: 29vw;
+}
+
+.NomeChat{
+    position: relative;
+    width: 770px;
+    height: 230px;
+    left: 15vw;
+    bottom: 30vh;
+    font-family: 'Signika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200px;
+    color: rgba(112, 0, 255, 0.73);
+}
+
+.areaChats{
+    background-color: #2c2c2c;
+    width: 611px;
+    height: 97vh;
+    margin-top: none;
+    margin-bottom: none;
+    padding-top: none;
+    border: 5px solid #000000;
+}
+
+#salaPRI{
+    color: #ffff;
+    position: relative;
+    top: 21vh;
+    left: 1vw;
+    font-size: 5vh;
+    font-weight: 600;
+    width: 25vw;
+}
+
+#seta{
+    position: relative;
+    border: none;
+}
+
+#btnVoltar{
+    position: relative;
+    width: 8vw;
+    height: 6vh;
+    border: none;
+    top: 1vh;
+    background-color: #2c2c2c;
+}
+
+a{
+    text-decoration: none;
+    color: #ffff;
+}
+
+a#Volt{
+    font-size: 8vh;
+    right: 1vw;
+    position: relative;
+    bottom: 5vh;
+    color: #7000FF;
+    text-decoration: none;
+    top: -35px;
+    border: none;
+}
+
+#Senha{
+    position: relative;
+    Width: 27vw;
+    Height: 8vh;
+    top: 17vh;
+    Left: 1vw;
+    border-radius:20px;
+    font-size: 4vh;
+    padding-left: 2vw;
+}
+
+input::placeholder{
+    font-size: 3.5vh;
+}
+
+.btnEntrarPriv{
+    position: relative;
+    top: 22vh;
+    height: 8vh;
+    width: 12vw;
+    left: 10vw;
+    color: #ffff;
+    background-color: #7000FF;
+    border: none;
+    border-radius: 10px;
+    font-size: 3vh;
+}
+
+@media only screen and (max-width: 390px){
+    #logo{
+        display: none;
+    }
+
+    #salaPRI {
+        color: #ffff;
+        position: relative;
+        top: 23vh;
+        left: 3vw;
+        font-size: 3.5vh;
+        font-weight: 600;
+        width: 25vw;
+    }
+
+    .bi.bi-eye-slash-fill {
+        position: relative;
+        left: 72vw;
+        font-size: 6.5vh;
+        color: #ffff;
+        top: 17.5vh;
+    
+    }
+
+    #Senha {
+        position: relative;
+        Width: 85vw;
+        Height: 8vh;
+        top: 20vh;
+        Left: 2vw;
+        border-radius: 20px;
+        font-size: 4vh;
+        padding-left: 2vw;
+    }
+
+    .btnEntrarPriv {
+        position: relative;
+        top: 26vh;
+        height: 8vh;
+        width: 31vw;
+        left: 33vw;
+        color: #ffff;
+        background-color: #7000FF;
+        border: none;
+        border-radius: 10px;
+        font-size: 3vh;
+    }
+=======
     height: 100% !important;
     margin: none;
 }
@@ -37,4 +196,5 @@ body{
     height: 8vh;
     border-radius:10px;
     background-color:#F0E68C;
+>>>>>>> df22d37ac866a63a875ec7707b2a10b6954c35c3
 }

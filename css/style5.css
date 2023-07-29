@@ -1,41 +1,39 @@
 body{
     background-color: #1B1B1B;
-    height: 100% !important;
+}
+
+.flex{
+    display:flex;
 }
 
 #logo{
     position: relative;
     height: 30vh;
-    width: 20vw;
-    left: 40vw;
-    bottom: 60vh;
-    margin: none;
 }
 
 img.ImagemLogo{
     position: relative;
-    width: 270px;
-    height: 270px;
-    bottom: 20vh;
-    left: 20vw;
+    width: 230px;
+    height: 220px;
+    top: 20vh;
+    left: 29vw;
 }
 
 .NomeChat{
     position: relative;
     width: 770px;
     height: 230px;
-    left: 8vw;
-    bottom: 25vh;
+    left: 15vw;
+    bottom: 30vh;
     font-family: 'Signika';
     font-style: normal;
     font-weight: 400;
     font-size: 200px;
-    color: #F0E68C;
-    margin: 0 !important;
+    color: rgba(112, 0, 255, 0.73);
 }
 
 .areaChats{
-    background-color: rgba(185, 185, 185, 0.0666667);
+    background-color: #2c2c2c;
     width: 611px;
     height: 97vh;
     margin-top: none;
@@ -50,19 +48,38 @@ img.ImagemLogo{
  border-bottom: 5px solid #000000; 
 }
 
-#titulo{
+#titulo {
     position: relative;
-    left: 1vw;
+    left: 13.5vw;
+    width: 10vw;
+    bottom: 7.5vh;
+}
+
+#seta{
+    position: relative;
+}
+
+#btnVoltar{
+    position: relative;
+    width: 3vw;
+    height: 3vh;
+    border: none;
+    background-color: #2c2c2c;
+}
+
+a#bla{
+    position: relative;
+    bottom: 0.5vh;
 }
 
 #addSala{
     position: relative;
-    left: 29vw;
-    bottom: 7vh;
-    height: 5.5vh;
-    width: 3vw;
+    left: 29.5vw;
+    bottom: 14vh;
+    height: 4.5vh;
+    width: 2.5vw;
     font-size: 4vh;
-    background: rgba(185, 185, 185, 0.0667);
+    background: #2c2c2c;
     border: 5px solid #000000; 
     color: #ffff;
 }
@@ -70,26 +87,29 @@ img.ImagemLogo{
 #salastatica{
     color: #ffff;
     position: relative;
-    left: 1vw;
+    left: 2vw;
+    top: 3vh;
+    font-size: 4vh;
     width: 25vw;
 }
 
 #salaPUB{
     position: relative;
     color: #ffff;
-    left: 1vw;
-    font-size: 3.5vh;
+    left: 2vw;
+    font-size: 4vh;
     font-weight: 600;
-    bottom: 2vh;
-    width: 25vw;
+    top: 1vh;
+    width: 2vw;
+
 }
 
 #salaPRI{
     color: #ffff;
     position: relative;
-    bottom: 1vh;
-    left: 1vw;
-    font-size: 3.5vh;
+    top: 3vh;
+    left: 2vw;
+    font-size: 4vh;
     font-weight: 600;
     width: 25vw;
 }
@@ -97,4 +117,108 @@ img.ImagemLogo{
 a{
     text-decoration: none;
     color: #ffff;
+}
+
+a#Volt{
+    font-size: 6vh;
+    position: relative;
+    bottom: 1.5vh;
+    left: 1vw;
+    color: #7000FF;
+}
+
+@media only screen and (max-width: 390px){
+    #logo{
+        display: none;
+    }
+
+    .areaChats{
+        background-color: #2c2c2c;
+        width: 90vw;
+        height: 92vh;
+        margin-top: none;
+        margin-bottom: none;
+        padding-top: none;
+        border: 5px solid #000000;
+    }
+    
+    .TituloSalas{
+     color: #ffff;
+     height: 5vh;
+     width: 90vw;
+     border-bottom: 5px solid #000000; 
+    }
+    
+    #titulo {
+        position: relative;
+        left: 36vw;
+        width: 10vw;
+        bottom: 8.5vh;
+    }
+    
+    #addSala {
+        position: relative;
+        left: 77vw;
+        bottom: 15.5vh;
+        height: 4.5vh;
+        width: 11vw;
+        font-size: 4vh;
+        background: #2c2c2c;
+        border: 5px solid #000000;
+        color: #ffff;
+    }
+
+    a#bla{
+        font-size: 3vh;
+        position: relative;
+        bottom: 1vh;
+    }
+
+    .bi.bi-eye-fill{
+        position: relative !important; 
+        left: 73vw !important;
+        font-size: 6vh !important;
+        color: #ffff !important;
+        bottom: 4.5vh !important;
+    
+    }
+
+    .bi.bi-eye-slash-fill{
+        position: relative !important;
+        left: 73vw !important;
+        font-size: 6vh !important;
+        color: #ffff !important;
+        bottom: 2.5vh !important;
+    
+    }
+    
+    h1#salastatica{
+        color: #ffff;
+        position: relative;
+        left: 2.5vw;
+        width: 65vw;
+        font-size: 3.5vh;
+        top: 3vh;
+        margin: none;
+    }
+    
+    #salaPUB{
+        position: relative;
+        color: #ffff;
+        left: 2.5vw;
+        font-size: 3.5vh;
+        font-weight: 600;
+        bottom: 2vh;
+        width: 25vw;
+    }
+    
+    #salaPRI{
+        color: #ffff;
+        position: relative;
+        bottom: 1vh;
+        left: 2.5vw;
+        font-size: 3.5vh;
+        font-weight: 600;
+        width: 25vw;
+    }
 }

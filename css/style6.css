@@ -1,9 +1,9 @@
 body{
     background-color: #1B1B1B;
-    height: 100% !important;
 }
 
 #logo{
+    position: relative;
     height: 30vh;
 }
 
@@ -11,8 +11,8 @@ img.ImagemLogo{
     position: relative;
     width: 230px;
     height: 220px;
-    bottom: 14vh;
-    left: 22vw;
+    bottom: 12vh;
+    left: 21vw;
 }
 
 .NomeChat{
@@ -20,12 +20,24 @@ img.ImagemLogo{
     width: 770px;
     height: 230px;
     left: 34vw;
-    bottom: 86vh;
+    bottom: 84vh;
     font-family: 'Signika';
     font-style: normal;
     font-weight: 400;
     font-size: 200px;
-    color: #F0E68C;
+    color: rgba(112, 0, 255, 0.73);
+}
+
+#seta{
+    position: relative;
+}
+
+#btnVoltar{
+    position: relative;
+    width: 8vw;
+    height: 6vh;
+    border: none;
+    background-color: #1B1B1B;
 }
 
 #NameSala{
@@ -51,14 +63,14 @@ img.ImagemLogo{
     width: 2vw;
     top: 10vh;
     right: 30vw;
-    background-color: #F0E68C;
+    background-color: #7000FF;
 }
 
 #PUB{
     color: #fff;
     position: relative;
     width: 3vw;
-    left: 32vw;
+    left: 33.5vw;
     bottom: 2vh;
     font-size: 5vh;
 }
@@ -83,7 +95,8 @@ img.ImagemLogo{
 
 #Criar{
     position: relative;
-    background-color: #F0E68C;
+    background-color: #A027FF;
+    color: #fff;
     height: 10vh;
     width: 20vw;
     border-radius: 20px;
@@ -95,4 +108,109 @@ img.ImagemLogo{
 a{
     text-decoration: none;
     color: #fff;
+}
+
+a#Volt{
+    font-size: 12vh;
+    position: relative;
+    bottom: 5vh;
+    color: #7000FF;
+}
+
+@media only screen and (max-width: 390px){
+    body{
+        background-color: #1B1B1B;
+    }
+    
+    img.ImagemLogo{
+        position: relative;
+        width: 105px;
+        height: 103px;
+        top: 1vh;
+        left: 36vw;
+    }
+    
+    h6.NomeChat{
+        position: relative;
+        width: 120px;
+        height: 130px;
+        left: 7vw;
+        bottom: 23vh;
+        font-family: 'Signika';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 86px;
+        color: rgba(112, 0, 255, 0.73);
+    }
+
+    #seta{
+        position: relative;
+    }
+    
+    #btnVoltar{
+        position: relative;
+        width: 8vw;
+        height: 6vh;
+        border: none;
+        background-color: #1B1B1B;
+    }
+
+    #NameSala {
+        position: relative;
+        Width: 85vw;
+        Height: 9vh;
+        bottom: 1vh;
+        Left: 5vw;
+        border-radius: 20px;
+        font-size: 4vh;
+        padding-left: 2vw;
+    }
+
+    #EscPUB {
+        position: relative;
+        height: 4vh;
+        width: 9vw;
+        top: 5vh;
+        left: 24vw;
+        background-color: #7000FF;
+    }
+
+    #PUB {
+        color: #fff;
+        position: relative;
+        width: 3vw;
+        left: 42.5vw;
+        bottom: 3.5vh;
+        font-size: 5vh;
+    }
+
+    #EscPRI {
+        position: relative;
+        height: 4vh;
+        width: 9vw;
+        bottom: 3vh;
+        left: 24vw;
+        background-color: #ffff;
+    }
+
+    #PRI {
+        color: #fff;
+        position: relative;
+        width: 3vw;
+        left: 42.5vw;
+        bottom: 11.5vh;
+        font-size: 5vh;
+    }
+
+    #Criar {
+        position: relative;
+        background-color: #A027FF;
+        color: #fff;
+        height: 10vh;
+        width: 53vw;
+        border-radius: 20px;
+        font-size: 4vh;
+        bottom: 4vh;
+        left: 23vw;
+    }
 }

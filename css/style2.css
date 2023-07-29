@@ -11,20 +11,20 @@ img.ImagemLogo{
     width: 230px;
     height: 220px;
     bottom: 1vh;
-    left: 18vw;
+    left: 21vw;
 }
 
 .NomeChat{
     position: relative;
     width: 770px;
     height: 230px;
-    left: 30vw;
+    left: 34vw;
     bottom: 74vh;
     font-family: 'Signika';
     font-style: normal;
     font-weight: 400;
     font-size: 200px;
-    color: #F0E68C;
+    color: rgba(112, 0, 255, 0.73);
 }
 
 .op{
@@ -37,7 +37,7 @@ img.ImagemLogo{
     width: 25vw;
     top: 15vh;
     left: 21vw;
-    background-color: #F0E68C;
+    background-color: #A027FF;
     border-radius: 20px;
     font-size: 5vh;
 }
@@ -48,12 +48,76 @@ img.ImagemLogo{
     width: 25vw;
     top: 15vh;
     left: 25vw;
-    background-color: #F0E68C;
+    background-color: #A027FF;
     border-radius: 20px;
     font-size: 5vh;
 }
 
 a{
     text-decoration: none;
-    color: #000;
+    color: #fff;
+}
+
+@media only screen and (max-width: 390px){
+    body{
+        background-color: #1B1B1B;
+    }
+    
+    #logo{
+        height: 30vh;
+        position: relative;
+
+    }
+    
+    #paragrafos{
+        width: 90%;
+    }
+    
+    img.ImagemLogo{
+        position: relative;
+        width: 105px;
+        height: 103px;
+        top: 1vh;
+        left: 36vw;
+    }
+    
+    h6.NomeChat{
+        position: relative;
+        width: 120px;
+        height: 130px;
+        left: 7vw;
+        bottom: 23vh;
+        font-family: 'Signika';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 86px;
+        color: rgba(112, 0, 255, 0.73);
+    }
+
+    #criar{
+        position: relative;
+        height: 15vh;
+        width: 65vw;
+        top: 12vh;
+        left: 17vw;
+        background-color: #A027FF;
+        border-radius: 20px;
+        font-size: 5vh;
+    }
+    
+    #entrar{
+        position: relative;
+        height: 15vh;
+        width: 65vw;
+        top: 20vh;
+        left: 17vw;
+        background-color: #A027FF;
+        border-radius: 20px;
+        font-size: 5vh;
+    }
+    
+    a{
+        text-decoration: none;
+        color: #000;
+    }
 }

@@ -11,28 +11,40 @@ img.ImagemLogo{
     position: relative;
     width: 230px;
     height: 220px;
-    bottom: 12vh;
-    left: 20vw;
+    left: 21vw;
+    bottom: 11vh;
 }
 
 .NomeChat{
     position: relative;
     width: 770px;
     height: 230px;
-    left: 32vw;
-    bottom: 85vh;
+    left: 34vw;
+    bottom: 83vh;
     font-family: 'Signika';
     font-style: normal;
     font-weight: 400;
     font-size: 200px;
-    color: #F0E68C;
+    color: rgba(112, 0, 255, 0.73);
+}
+
+#seta{
+    position: relative;
+}
+
+#btnVoltar{
+    position: relative;
+    width: 8vw;
+    height: 6vh;
+    border: none;
+    background-color: #1B1B1B;
 }
 
 #email{
     position: relative;
     Width: 1092px;
     Height: 98px;
-    bottom: 14vh;
+    bottom: 12vh;
     Left: 20vw;
     border-radius:20px;
     font-size: 4vh;
@@ -44,7 +56,7 @@ img.ImagemLogo{
     position: relative;
     Width: 1092px;
     Height: 98px;
-    bottom: 12vh;
+    bottom: 10vh;
     Left: 20vw;
     border-radius:20px;
     font-size: 4vh;
@@ -55,7 +67,7 @@ img.ImagemLogo{
     position: relative;
     Width: 1092px;
     Height: 98px;
-    bottom: 10vh;
+    bottom: 8vh;
     Left: 20vw;
     border-radius:20px;
     font-size: 4vh;
@@ -66,7 +78,7 @@ img.ImagemLogo{
     position: relative;
     Width: 1092px;
     Height: 98px;
-    bottom: 8vh;
+    bottom: 6vh;
     Left: 20vw;
     border-radius:20px;
     font-size: 4vh;
@@ -79,23 +91,125 @@ img.ImagemLogo{
 }
 
 #btncriar{
-    background-color: #F0E68C;
+    background-color: #A027FF;
     position: relative;
     height: 10vh;
     width: 20vw;
     border-radius: 20px;
     font-size: 4vh;
-    left: 38vw;
+    left: 40vw;
 }
 
 a{
     text-decoration: none;
-    color: #000;
+    color: #fff;
 }
 
-#btnSet{
+a#Volt{
+    font-size: 12vh;
     position: relative;
-    background-color: #1B1B1B;
-    width: 9vw;
-    border: none;
+    bottom: 5vh;
+    color: #7000FF;
+}
+
+@media only screen and (max-width: 390px){
+    body{
+        background-color: #1B1B1B;
+    }
+    
+    img.ImagemLogo{
+        position: relative;
+        width: 105px;
+        height: 103px;
+        top: 1vh;
+        left: 36vw;
+    }
+    
+    h6.NomeChat{
+        position: relative;
+        width: 120px;
+        height: 130px;
+        left: 7vw;
+        bottom: 23vh;
+        font-family: 'Signika';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 86px;
+        color: rgba(112, 0, 255, 0.73);
+    }
+
+    #seta{
+        position: relative;
+    }
+    
+    #btnVoltar{
+        position: relative;
+        width: 8vw;
+        height: 6vh;
+        border: none;
+        background-color: #1B1B1B;
+    }
+
+    #email{
+        position: relative;
+        Width: 344px;
+        Height: 74px;
+        bottom: -1vh;
+        Left: 3vw;
+        border-radius: 20px;
+        font-size: 4vh;
+        padding-left: 2vw;
+    
+    }
+
+    #Nome{
+        position: relative;
+        Width: 344px;
+        Height: 74px;
+        top: 2vh;
+        Left: 3vw;
+        border-radius:20px;
+        font-size: 4vh;
+        padding-left: 2vw;
+    }
+    
+    #Senha{
+        position: relative;
+        Width: 344px;
+        Height: 74px;
+        top: 3vh;
+        Left: 3vw;
+        border-radius:20px;
+        font-size: 4vh;
+        padding-left: 2vw;
+    }
+    
+    #Confirmar{
+        position: relative;
+        Width: 344px;
+        Height: 74px;
+        top: 4vh;
+        Left: 3vw;
+        border-radius:20px;
+        font-size: 4vh;
+        padding-left: 2vw;
+    }
+
+    #btncriar{
+        background-color: #A027FF;
+        position: relative;
+        height: 10vh;
+        width: 55vw;
+        top: 10vh;
+        border-radius: 20px;
+        font-size: 4vh;
+        left: 21vw;
+    }
+
+    a#Volt{
+        font-size: 6vh;
+        position: relative;
+        bottom: 1vh;
+        color: #7000FF;
+    }
 }
